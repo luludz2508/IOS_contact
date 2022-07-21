@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96820006288930E10039F798 /* GifImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96820005288930E10039F798 /* GifImage.swift */; };
+		96820008288931BD0039F798 /* ricardo-flick.gif in Resources */ = {isa = PBXBuildFile; fileRef = 96820007288931BD0039F798 /* ricardo-flick.gif */; };
 		9682FFF8288926770039F798 /* IOS_contactApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9682FFF7288926770039F798 /* IOS_contactApp.swift */; };
 		9682FFFA288926770039F798 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9682FFF9288926770039F798 /* ContentView.swift */; };
 		9682FFFC288926780039F798 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9682FFFB288926780039F798 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		96820005288930E10039F798 /* GifImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifImage.swift; sourceTree = "<group>"; };
+		96820007288931BD0039F798 /* ricardo-flick.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "ricardo-flick.gif"; sourceTree = "<group>"; };
 		9682FFF4288926770039F798 /* IOS_contact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOS_contact.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9682FFF7288926770039F798 /* IOS_contactApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_contactApp.swift; sourceTree = "<group>"; };
 		9682FFF9288926770039F798 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,10 +55,12 @@
 		9682FFF6288926770039F798 /* IOS_contact */ = {
 			isa = PBXGroup;
 			children = (
+				96820007288931BD0039F798 /* ricardo-flick.gif */,
 				9682FFF7288926770039F798 /* IOS_contactApp.swift */,
 				9682FFF9288926770039F798 /* ContentView.swift */,
 				9682FFFB288926780039F798 /* Assets.xcassets */,
 				9682FFFD288926780039F798 /* Preview Content */,
+				96820005288930E10039F798 /* GifImage.swift */,
 			);
 			path = IOS_contact;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9682FFFF288926780039F798 /* Preview Assets.xcassets in Resources */,
+				96820008288931BD0039F798 /* ricardo-flick.gif in Resources */,
 				9682FFFC288926780039F798 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +146,7 @@
 			files = (
 				9682FFFA288926770039F798 /* ContentView.swift in Sources */,
 				9682FFF8288926770039F798 /* IOS_contactApp.swift in Sources */,
+				96820006288930E10039F798 /* GifImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

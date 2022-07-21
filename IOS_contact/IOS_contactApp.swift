@@ -11,7 +11,7 @@ import SwiftUI
 struct IOS_contactApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView("HUynh WUoc TRij")
         }
     }
 }
